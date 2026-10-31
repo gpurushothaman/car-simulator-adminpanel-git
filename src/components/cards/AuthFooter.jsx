@@ -25,7 +25,7 @@ export default function AuthFooter() {
               e.preventDefault();
             }}
           >
-            Abimanya Doors
+            Custom Car
           </Link>
         </Typography>
 
