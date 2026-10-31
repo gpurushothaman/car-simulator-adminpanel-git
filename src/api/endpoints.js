@@ -1,3 +1,5 @@
  export const ENDPOINTS = {
-  LOGIN: "/auth/login"
+  LOGIN: "/auth/login",
+  TYRES: "/tyre",
+  STEERINGS: "/steering",
 };

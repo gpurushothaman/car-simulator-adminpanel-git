@@ -126,9 +126,9 @@ export default function Profile() {
                       <Stack direction="row" sx={{ gap: 1.25, alignItems: 'center' }}>
                         <Avatar alt="profile user" src={avatar1} sx={{ width: 32, height: 32 }} />
                         <Stack>
-                          <Typography variant="h6">John Doe</Typography>
+                          <Typography variant="h6">Admin</Typography>
                           <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-                            UI/UX Designer
+                            admin@gmail.com
                           </Typography>
                         </Stack>
                       </Stack>
@@ -140,7 +140,7 @@ export default function Profile() {
                     </Stack>
                   </CardContent>
 
-                  <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
+                  {/* <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
                     <Tabs variant="fullWidth" value={value} onChange={handleChange} aria-label="profile tabs">
                       <Tab
                         sx={{
@@ -158,7 +158,7 @@ export default function Profile() {
                         label="Profile"
                         {...a11yProps(0)}
                       />
-                      {/* <Tab
+                      <Tab
                         sx={{
                           display: 'flex',
                           flexDirection: 'row',
@@ -173,13 +173,13 @@ export default function Profile() {
                         icon={<SettingOutlined />}
                         label="Setting"
                         {...a11yProps(1)}
-                      />*/}
+                      />
                     </Tabs> 
-                  </Box>
-                  <TabPanel value={value} index={0} dir={theme.direction}>
+                  </Box> */}
+                  {/* <TabPanel value={value} index={0} dir={theme.direction}>
                     <ProfileTab />
                   </TabPanel>
-                  {/* <TabPanel value={value} index={1} dir={theme.direction}>
+                  <TabPanel value={value} index={1} dir={theme.direction}>
                     <SettingTab />
                   </TabPanel> */}
                 </MainCard>
