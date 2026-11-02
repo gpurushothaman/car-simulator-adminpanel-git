@@ -39,6 +39,30 @@ const dashboard = {
       icon: icons.CompassOutlined,
       breadcrumbs: false
     },
+    {
+      id: 'spoiler',
+      title: 'Spoilers',
+      type: 'item',
+      url: '/spoilers',
+      icon: icons.CompassOutlined,
+      breadcrumbs: false
+    },
+    {
+      id: 'rearbumper',
+      title: 'RearBumper',
+      type: 'item',
+      url: '/rearbumpers',
+      icon: icons.CompassOutlined,
+      breadcrumbs: false
+    },
+    {
+      id: 'frontbumper',
+      title: 'FrontBumper',
+      type: 'item',
+      url: '/frontbumpers',
+      icon: icons.CompassOutlined,
+      breadcrumbs: false
+    },
   ]
 };
 

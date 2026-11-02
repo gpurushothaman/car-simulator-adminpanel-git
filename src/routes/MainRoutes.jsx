@@ -6,6 +6,9 @@ import DashboardLayout from 'layout/Dashboard';
 import AuthGuard from "./AuthGuard";
 import Tyres from '../pages/tyres/Tyres';
 import Steering from '../pages/steering/Steering';
+import Spoilers from '../pages/spoiler/Spoiler';
+import RearBumpers from '../pages/rearbumper/RearBumper';
+import FrontBumpers from '../pages/frontbumper/FrontBumper';
 
 
 // render- Dashboard
@@ -33,6 +36,18 @@ const MainRoutes = {
     {
       path: 'steerings',
       element: <Steering />
+    },
+    {
+      path: 'spoilers',
+      element: <Spoilers/>
+    },
+    {
+      path: 'rearbumpers',
+      element: <RearBumpers/>
+    },
+    {
+      path: 'frontbumpers',
+      element: <FrontBumpers/>
     },
   ]
 };
