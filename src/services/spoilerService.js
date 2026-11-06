@@ -1,7 +1,7 @@
 import api from '../api/axios';
 import { ENDPOINTS } from '../api/endpoints';
 
-export const getSpoilers = () => api.get(ENDPOINTS.TYRES);
+export const getSpoilers = () => api.get(ENDPOINTS.SPOILERS);
 
 export const createSpoiler = (spoilerData) => {
   const config = {};
